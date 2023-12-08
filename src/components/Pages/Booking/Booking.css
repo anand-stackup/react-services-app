@@ -1,0 +1,17 @@
+.booking{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.booking form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

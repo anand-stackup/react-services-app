@@ -1,0 +1,42 @@
+.admin{
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.admin td{
+    text-align: center;
+} 
+
+.admin tr {
+    height: 50px;
+    border: 1px solid lightgray;
+}
+
+.popup{
+    border: 1px solid blue;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmed{
+    color: rgb(7, 237, 7);
+}
+
+.popup button{
+    font-size: 15px;
+}
+
+
+.popup-btn{
+    display: flex;
+    gap: 10px;
+}

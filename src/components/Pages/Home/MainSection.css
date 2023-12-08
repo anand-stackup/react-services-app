@@ -1,0 +1,9 @@
+.main-section{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

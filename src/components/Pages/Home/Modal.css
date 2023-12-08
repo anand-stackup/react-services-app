@@ -1,0 +1,64 @@
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000003d;
+}
+
+.modal{
+    /* height: 500px; */
+    width: 50%;
+    border: 1px solid red;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;justify-content: flex-end;
+    gap: 12px;
+    align-items: center;
+}
+
+.pdt-img{
+    height: 300px;
+    width: 300px;
+}
+
+.modal img{
+    width: 100%;
+}
+
+.modal p{
+    width: 70%;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.date {
+    display: flex;
+    gap: 10px;
+}
+
+.date input{
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.check {
+    display: flex;
+    gap: 6px;
+}
